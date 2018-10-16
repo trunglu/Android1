@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HRM</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="action_close">Close</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_deleteall">Delete All</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_Sync">Sync Data</string>
+    <string name="action_Download_Dep_Offline">Sync Department Offline</string>
+    <string name="action_language">Language</string>
+    <string name="camera">Camera unsupported</string>
+    <string name="adduser">Add User</string>
+
+    <string name="capture_name">QR Code Capture</string>
+    <string name="encoder_name">QR Code Encoder</string>
+    <string name="decoder_name">QR Code Decoder</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="msg_default_contents">Contents</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="wifi_changing_network">Changing Network</string>
+    <string name="wifi_ssid_label">Network Name</string>
+    <string name="wifi_type_label">Type</string>
+    <string name="barcode_image">Barcode Image</string>
+    <string name="VietNames">VietNames</string>
+    <string name="Chinna">Chinna</string>
+    <string name="English">English</string>
+    <string name="Login">Login</string>
+    <string name="Logout">Logout</string>
+    <string name="Exit">Exit</string>
+    <string name="TimeKeeping">TimeKeeping</string>
+    <string name="User">User</string>
+    <string name="Password">Password</string>
+    <string name="Notify">Notify</string>
+    <string name="Login_fail">Login fail. User name or password wrong</string>
+    <string name="To_Retry">To Retry</string>
+    <string name="Server">Server:</string>
+    <string name="Database">Database:</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Connect">Connect</string>
+    <string name="Ok">Ok</string>
+    <string name="Department">Department</string>
+    <string name="Select_a_department">Select a department</string>
+    <string name="Scanning_QR_Code">Scanning QR Code</string>
+    <string name="Delete">Delete</string>
+    <string name="You_will_want_exit_program">You will want exit program?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Data_already_exists">Data alread exists!!!</string>
+    <string name="Save_success">Save success</string>
+    <string name="Delete_success">Delete success</string>
+    <string name="Connect_database_success">Connect database success</string>
+    <string name="Warning">Warning!</string>
+    <string name="Do_you_want_delete_all_of_timekeeper_datas_today">Do you want delete all of timekeeper datas today?</string>
+    <string name="Refresh">Refresh</string>
+    <string name="No_connect_internet">No connect Internet............</string>
+    <string name="Edit">Edit</string>
+    <string name="Save">Save</string>
+    <string name="Name">Name</string>
+    <string name="Birthday">Birthday</string>
+    <string name="Id">Id</string>
+
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_text_full_screen">TextFullScreen</string>
+
+    <string name="title_activity_test_full_screen">TestFullScreen</string>
+
+
+    <string name="setting_lbl_Title">APP SETTING</string>
+    <string name="setting_lbl_EditConnection">Edit Connection Server</string>
+    <string name="setting_lbl_UserManagement">User Management</string>
+    <string name="setting_lbl_ChangePassword">Change Password</string>
+    <string name="setting_lbl_GoBackScreen">Go Back</string>
+    <string name="title_activity_setting_change_password">Change Password For Current user</string>
+    <string name="ChangePasswordSetting_lbl_Title">CHANGE PASSWORD</string>
+    <string name="ChangePasswordSetting_lbl_UserName">Your UserName:</string>
+    <string name="ChangePasswordSetting_lbl_oldpassword">Enter your old password:</string>
+    <string name="ChangePasswordSetting_hint_enterOldpass">Old password</string>
+    <string name="ChangePasswordSetting_lblNewPassword">Enter new password:</string>
+    <string name="ChangePasswordSetting_hint_newpassword">new Password</string>
+    <string name="ChangePasswordSetting_lbl_ConfirmPassword">Confirm your new password:</string>
+    <string name="ChangePasswordSetting_hint_RetypePassword">Enter retype password.</string>
+    <string name="Setting_btnChangePassword">Change Password</string>
+    <string name="Setting_btn_Changepass_Goback">Back Screen</string>
+
+    <string name="title_activity_testchangepass">testchangepass</string>
+    <string name="title_activity_test_change">testChangeActivity</string>
+
+    <string name="title_activity_setting_list_user">SettingListUser</string>
+    <string name="Setting_lblListuser_Title">LIST USER</string>
+    <string name="Setting_btncal_AddnewEmp">Add New Employee</string>
+    <string name="Setting_lbl_Createuser_Title">CREATE NEW USER</string>
+
+    <string name="Setting_alert_ChangePassword_input">Please Input enought information.</string>
+    <string name="Setting_alert_ChangePassword_inputConfirm">Check Confirm retype Password and Password.</string>
+    <string name="Setting_alert_ChangePassword_Success">Password Change Success.</string>
+
+    <string name="Setting_alert_Listuser_ConfirmDelete">Do you wants Delete User: {user} </string>
+    <string name="Setting_alert_Listuser_Delete_Success">Delete User: {user} Successful.</string>
+    <string name="activity_addUser_lblNormal">Normal User</string>
+    <string name="activity_AddNewAccount_lblSuperMode">Super User</string>
+    <string name="title_activity_manual_change_password">ManualChangePassword</string>
+    <string name="activity_changePass_lblTitle">CHANGE PASSWORD FOR USER</string>
+    <string name="activity_changepass_txtUserName">Enter Username</string>
+    <string name="activity_changepass_btnSearchUsername">Search Username</string>
+    <string name="activity_setting_lblChangepassforOrderUser">Forgot password.</string>
+
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+
+    <string name="title_activity_popup_change_password">Change Password</string>
+    <string name="popup_changePass_lblTitle">CHANGE PASSWORD FOR USER</string>
+    <string name="popup_changepass_lblUsername">User name:</string>
+    <string name="popup_changepass_txtPassword">Enter New Password</string>
+    <string name="popup_changepass_txtConfirmPassword">Confirm new password</string>
+    <string name="popup_changepassword_btnChangenow">Change Now</string>
+    <string name="fragmentContent_lblTotal">Total employee:</string>
+    <string name="fragmentContent_lbltotalBycard">Attendent by card:</string>
+    <string name="fragmentContent_lblTotalbyApp">Attendent by App:</string>
+    <string name="btn_login_useAppOffline">Use App Offline</string>
+    <string name="OfflineScreenTitle">OFFLINE SCREEN</string>
+    <string name="OfflineScreen_LabelIntroduce">Do not Network now, you can Scan QR-Code and get employee info offline. All data you got
+    in this device will be sync to server when this device reconnect with network.</string>
+    <string name="OfflineScreen_labelSyncReady">Your device is connected to network. Ready for sync now, tap to sync icon for sync with server.</string>
+    <string name="OfflineScreen_IblWaitingforsync">Items Waiting for Sync</string>
+    <string name="OfflineScreen_lblEmployee">Employee:</string>
+    <string name="OfflineScreen_lblImage">Images :</string>
+    <string name="Login_lblToastloginRequire">Please Login Before Use App Offline.</string>
+    <string name="lbl_Fragment_Waiting">Wait ... </string>
+    <string name="lbl_Fragment_LoadingData">Loading Data</string>
+    <string name="lbl_MainMenu_Sync_Dep_Error">Please Choose Department for Sync value to your Device</string>
+    <string name="lbl_MainMenu_Sync_Dep_TitleWaiting">Waiting for sync, Please wait.</string>
+    <string name="lbl_MainMenu_Sync_Dep_MessageWaiting">Loading data from SQL server, Department  </string>
+    <string name="btn_OfflineScreen_DisplaySyncedList">Display Synced List</string>
+    <string name="Title_OfflineEmployeeSynced">EMPLOYEE LIST SYNCED</string>
+    <string name="lbl_OfflineEMP_TitleEMPList">Employee List: </string>
+    <string name="lbl_OfflineEMP_Persons">Persons</string>
+    <string name="Title_PopupDep">Choose A Department</string>
+    <string name="lbl_adapter_custom_departmentTotal">Total: </string>
+    <string name="lbl_scanQrCode">SCAN QR CODE</string>
+    <string name="txt_config_IP">IP Of Server</string>
+    <string name="txt_Config_DatabaseName">Database Name</string>
+    <string name="txt_Config_UsernameDB">Datebase UserName</string>
+    <string name="txt_config_password">Enter Password</string>
+    <string name="lbl_showActionEMPDisplayDetail">Display Employee Details</string>
+    <string name="lbl_ChooseAction_EMPClearAttendent">Clear Today Attdent</string>
+    <string name="lbl_ChooseActionEMP_DisplayAttedent">Display Today Attendent</string>
+    <string name="lbl_ChooseActionEMP_Title">CHOOSE ACTION FOR EMPLOYEE</string>
+    <string name="lbl_EMPAttendent_Activity_EMP_ID">Employee ID:</string>
+    <string name="lbl_Attendent_Activity_EMP_Name">Name:</string>
+    <string name="lbl_Attendent_Activity_DepName">Department:</string>
+    <string name="lbl_Attendent_Activity_Title_ListAttendent">List Today Attendent:</string>
+    <string name="lbl_adapter_attendent_AdminName">Admin name:</string>
+    <string name="lbl_adapter_attendent_AttendentTime">Attendent Time:</string>
+    <string name="lbl_adapter_attendent_TakenBy">Taken By:</string>
+    <string name="Title_DetailAttendent_Activity">Today Attendent Details</string>
+    <string name="btn_Dialog_EMP_Offline_Takepicture">Take Picture</string>
+    <string name="Title_ScabBarcode_WithPhoto">Saved {id} To Device. With Taken Picture.</string>
+    <string name="Title_ScabBarcode_NoPhoto">Saved {id} To Device.</string>
+    <string name="Title_ScabBarcode_ExistsInSQLite">This ID {id} Exists Device.</string>
+    <string name="Title_ScabBarcode_">Scan Result</string>
+    <string name="Title_SyncOfflineIntoSQL">Sync Data to Server...</string>
+    <string name="Message_Save_Scan_EMP_Into_DB">Saving Employee {id} To Database</string>
+    <string name="Message_Save_Scan_EMP_Into_DB_Title">Saving Scan Result</string>
+    <string name="lbl_allow_sync_photo_to_device">Allow Sync Photo To Device:</string>
+
+    <string name="lbl_EmployeeListOffline_DeleteALL">All Photo File in This Department is Deleted.</string>
+    <string name="lbl_EmployeeListOffline_Title">Delete Photo Of Employee</string>
+    <string name="lbl_EmployeeListOffline_MessageDelete">All Photo of employee in this Department will be remove. Do you want delete this</string>
+    <string name="enter_api_url">Enter API URL</string>
+    <string name="internal_lan">Internal LAN</string>
+    <string name="extenal_network">Extenal Network</string>
+    <string name="ChangeConnect_network">Connection changed to: </string>
+    <string name="no_sync">No Sync</string>
+    <string name="allow_sync">Allow Sync</string>
+
+    <string name="Activity_AddUser_Alert_Success">Add user success</string>
+    <string name="Activity_AddUser_EmptyUser">User or Password can not be empty</string>
+    <string name="Activity_AddUser_WrongConfirmPassword">Wrong Confirm Password.</string>
+</resources>

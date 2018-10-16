@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><!--<android.support.v4.widget.SwipeRefreshLayout --><!--android:id="@+id/Sf_ReloadOffline"--><!--android:layout_width="fill_parent"--><!--android:layout_height="fill_parent">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg_gradien_blue"
+        android:orientation="vertical">
+
+
+        <!--<android.support.v4.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/Sf_ReloadOffline1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/OfflineScreen_LabelIntroduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dip"
+                    android:text="@string/OfflineScreen_LabelIntroduce"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/bright_foreground_material_dark" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/OfflineScreen_llBtnOffline"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_OfflineScreen_qrcode"
+                            android:layout_width="80dip"
+                            android:layout_height="80dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="5dip"
+                            android:src="@drawable/ic_qrcode_white" />
+
+                        <ImageView
+                            android:id="@+id/img_OfflineScreen_takePhoto"
+                            android:layout_width="80dip"
+                            android:layout_height="80dip"
+                            android:layout_marginLeft="5dip"
+                            android:src="@drawable/ic_take_photo" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_OfflineScreen_sync"
+                        android:layout_width="80dip"
+                        android:layout_height="80dip"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dip"
+                        android:src="@drawable/ic_sync_white"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/OfflineScreen_llWaitingforSync"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="1dip"
+                        android:text="@string/OfflineScreen_IblWaitingforsync"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/bright_foreground_material_dark" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dip"
+                        android:layout_marginLeft="20dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="9dip"
+                            android:text="@string/OfflineScreen_lblEmployee"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/bright_foreground_material_dark" />
+
+                        <TextView
+                            android:id="@+id/OfflineScreen_lblEmployee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/bright_foreground_material_dark" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="9dip"
+                            android:text="@string/OfflineScreen_lblImage"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/bright_foreground_material_dark" />
+
+                        <TextView
+                            android:id="@+id/OfflineScreen_lblImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/bright_foreground_material_dark" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_CheckByListSynced"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dip"
+                    android:layout_marginRight="12dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/buttonlogin"
+                    android:text="@string/btn_OfflineScreen_DisplaySyncedList"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/Sf_ReloadOffline"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ListView
+                android:id="@+id/lv_offlineScreen_Department"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="4dip"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+</LinearLayout><!--</android.support.v4.widget.SwipeRefreshLayout>-->

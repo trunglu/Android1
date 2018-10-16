@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jwetherell.quick_response_code"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- dùng để kiểm tra kết nối internet -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme">
+        <activity
+            android:name=".Login"
+            android:configChanges="locale|orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        xoa history
+        android:largeHeap="true"
+        android:noHistory="true"
+        android:configChanges="orientation|screenSize"
+        -->
+        <activity
+            android:name=".Config"
+            android:configChanges="locale|orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ActivityOfflineMainScreen"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- <activity android:name=".Content" -->
+        <!-- android:screenOrientation = "portrait"> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".CaptureActivity"
+            android:configChanges="locale|orientation|keyboardHidden"
+            android:parentActivityName=".MainContent"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainContent" />
+
+            <!--
+            android:stateNotNeeded="true"
+            android:clearTaskOnLaunch="true"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            -->
+        </activity>
+        <!-- android:theme="@android:style/Theme.Dialog" -->
+        <activity
+            android:name=".Personnel"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name=".Login" -->
+        <!-- android:windowSoftInputMode="adjustResize"></activity> -->
+
+        <activity
+            android:name=".MainContent"
+            android:configChanges="locale|orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".AddUser"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".GlobalSetting.SettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GlobalSetting.TestFullScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_test_full_screen"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GlobalSetting.SettingChangePassword"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_setting_change_password"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GlobalSetting.SettingListUser"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_setting_list_user"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GlobalSetting.ManualChangePassword"
+            android:label="@string/title_activity_manual_change_password"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GlobalSetting.ForgotPassword"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GlobalSetting.PopupChangePassword"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_popup_change_password"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="locale|orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".EmployeeListOffline"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".DialogDepartmentActivity"
+            android:label="@string/Title_PopupDep"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".ActivityChooseEmployeeAction"
+            android:label="@string/lbl_ChooseActionEMP_Title"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".ActivityEMPTodayAttendent"
+            android:label="@string/Title_DetailAttendent_Activity" />
+        <activity
+            android:name=".Dialog_Offline_EMP"
+            android:label="@string/lbl_ChooseActionEMP_Title"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".BarcodeScanner"
+            android:theme="@style/Theme.AppCompat.Light"></activity>
+    </application>
+
+</manifest>

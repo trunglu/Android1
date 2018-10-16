@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/login_screen_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llLogin_loginForm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextUser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="@string/User"
+                android:singleLine="true"
+                android:textColor="#FFFFFF"></EditText>
+
+            <EditText
+                android:id="@+id/editTextPass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="@string/Password"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/buttonlogin"
+                    android:text="@string/Login"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/buttonExit"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonlogin"
+                    android:text="@string/Exit"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_login_Nonetwork"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img_Login_NoNetwork"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/no_network_white" />
+
+            <Button
+                android:id="@+id/Login_btn_useOffline"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/buttonlogin"
+                android:text="@string/btn_login_useAppOffline"
+                android:visibility="gone"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

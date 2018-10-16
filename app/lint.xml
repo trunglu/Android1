@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/jwetherell/quick_response_code/CaptureActivity.java" />
+        <ignore path="src/com/jwetherell/quick_response_code/Config.java" />
+        <ignore path="src/com/jwetherell/quick_response_code/Content.java" />
+        <ignore path="src/com/jwetherell/quick_response_code/CustomArrayAdapterListView.java" />
+        <ignore path="src/com/jwetherell/quick_response_code/Personnel.java" />
+    </issue>
+</lint>

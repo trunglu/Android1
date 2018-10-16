@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#003A6C"
+    android:orientation="vertical">
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/lbl_displayActionOFFLINE_EMPInfo"
+            android:layout_gravity="center_horizontal" />
+    </TableRow>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_height="1dip"
+        android:layout_marginBottom="20dip"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Dialog_EMP_Offline_Takepicture"
+            android:id="@+id/btn_Dialog_EMP_Offline_Takepicture"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonlogin"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="15dip" />
+    </LinearLayout>
+
+</LinearLayout>

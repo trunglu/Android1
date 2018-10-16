@@ -1,0 +1,4 @@
+#Tue Oct 16 09:37:42 GMT+07:00 2018
+base.0=E\:\\trung\\sources\\Android_Projects\\QLNSu_ManualAttendant\\QLNSu 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

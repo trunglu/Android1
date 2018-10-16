@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_0f1c521143cf9cb8037937ea6716bb3a33e0f379/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/5c2c5190246c5705a4fc99229e9e614094551703/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/classes_871d7ab92ba169b84a27d8cd5403a8789c1d5ff5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/a0cb05a05cbe6a828bf75642e61c3235ce63bee8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa2b32d14de87c6d25ef52f0862f06d2013f8ce0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/QLNSu/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5d089f68389d0c4c37233b209ee8e336f37c7e16/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/a0cb05a05cbe6a828bf75642e61c3235ce63bee8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/classes_fa2b32d14de87c6d25ef52f0862f06d2013f8ce0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1dd8127e47d6dfcbc5fc3d7c36a0a84c1ec6f6a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/QLNSu/app/libs/jtds-1.2.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="111abf08f69f350923d34d64267a67d7367d4230">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/2/jtds-1.2.8_40e78ffcd2ef723ace1585ebb19277c82573b48c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/classes_1dd8127e47d6dfcbc5fc3d7c36a0a84c1ec6f6a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/5c2c5190246c5705a4fc99229e9e614094551703/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_871d7ab92ba169b84a27d8cd5403a8789c1d5ff5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d39c1ea1b8b3f1ff6b9345ed081c2c5e03ae656">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_32caa244a73e05cb054a05aeb89877b7ac14263a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_03ab0c99d4687f7c6c7119b9785d4487d446052a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1dd8127e47d6dfcbc5fc3d7c36a0a84c1ec6f6a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/QLNSu/app/libs/core.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/2/core_b1bd0921261d91ae0063db99d80e9df103b99bee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_03ab0c99d4687f7c6c7119b9785d4487d446052a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/zbar_715c35d428f7c9c83c5a6b3347adb0e001a485a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/picasso-2.3.2_03ab0c99d4687f7c6c7119b9785d4487d446052a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/libs/zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/zbar_715c35d428f7c9c83c5a6b3347adb0e001a485a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/libs/zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/zbar_715c35d428f7c9c83c5a6b3347adb0e001a485a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_0f1c521143cf9cb8037937ea6716bb3a33e0f379/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/support-annotations-22.2.0_0f1c521143cf9cb8037937ea6716bb3a33e0f379.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/zbar_715c35d428f7c9c83c5a6b3347adb0e001a485a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_33d65b44e63efd307cb6beb7c462656fbf452bee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_03ab0c99d4687f7c6c7119b9785d4487d446052a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/libs/jtds-1.2.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="111abf08f69f350923d34d64267a67d7367d4230">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/2/jtds-1.2.8_267270123810bfb5ac7ae50f188df697405b9c53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_0f1c521143cf9cb8037937ea6716bb3a33e0f379/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/QLNSu/app/libs/core.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/2/core_b1bd0921261d91ae0063db99d80e9df103b99bee/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/picasso-2.3.2_03ab0c99d4687f7c6c7119b9785d4487d446052a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/libs/core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/core_03e10f412e5e2eef4afdff88bbe88a6408322f51.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/QLNSu/app/libs/jtds-1.2.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="111abf08f69f350923d34d64267a67d7367d4230">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/2/jtds-1.2.8_40e78ffcd2ef723ace1585ebb19277c82573b48c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_0f1c521143cf9cb8037937ea6716bb3a33e0f379.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/a0cb05a05cbe6a828bf75642e61c3235ce63bee8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/classes_fa2b32d14de87c6d25ef52f0862f06d2013f8ce0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/a0cb05a05cbe6a828bf75642e61c3235ce63bee8/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_60f6fd974be56ab6f3501e3ebabc5d1dcf0519d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/5c2c5190246c5705a4fc99229e9e614094551703/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_871d7ab92ba169b84a27d8cd5403a8789c1d5ff5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/a0cb05a05cbe6a828bf75642e61c3235ce63bee8/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/internal_impl-22.2.0_60f6fd974be56ab6f3501e3ebabc5d1dcf0519d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/5c2c5190246c5705a4fc99229e9e614094551703/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/classes_871d7ab92ba169b84a27d8cd5403a8789c1d5ff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/1c87e30542bf9d820cd4e276dae5ca1db32533ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/classes_1dd8127e47d6dfcbc5fc3d7c36a0a84c1ec6f6a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/2a1dd779e73750a81f4952400561c866a8278066/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/classes_cfa1c3a17762e27705749594a59e140f6556f7a9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/QLNSu/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae3f23a4a8d63f208ad2449fcf79b373cc4e328e">
+        <dex dex="/Users/admin/Downloads/QLNSu/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a84df048f7c2912cb0489b94af5740339a2105e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/libs/jtds-1.2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="111abf08f69f350923d34d64267a67d7367d4230">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/jtds-1.2.8_267270123810bfb5ac7ae50f188df697405b9c53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/libs/core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/core_03e10f412e5e2eef4afdff88bbe88a6408322f51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/libs/jtds-1.2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="111abf08f69f350923d34d64267a67d7367d4230">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/jtds-1.2.8_267270123810bfb5ac7ae50f188df697405b9c53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/a0cb05a05cbe6a828bf75642e61c3235ce63bee8/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_60f6fd974be56ab6f3501e3ebabc5d1dcf0519d6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/libs/core.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/2/core_03e10f412e5e2eef4afdff88bbe88a6408322f51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/2a1dd779e73750a81f4952400561c866a8278066/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cfa1c3a17762e27705749594a59e140f6556f7a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/2a1dd779e73750a81f4952400561c866a8278066/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/admin/Downloads/KieuMinhHRMApp/QLNSu 2/app/build/intermediates/pre-dexed/release/classes_cfa1c3a17762e27705749594a59e140f6556f7a9.jar" />
+    </item>
+
+</items>

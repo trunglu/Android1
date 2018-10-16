@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\trung\\sources\\Android_Projects\\QLNSu_ManualAttendant\\QLNSu 2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LU VAN TRUNG\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.8.2.aar\\7ed41f6727bb3191a32a958fe1a90604\\res\\values-xxhdpi-v4\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "199,258",
+                        "endColumns": "58,55",
+                        "endOffsets": "253,309"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollViewEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#003A6C"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llConfigText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="#003A6C"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llConfigButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:background="#003A6C"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="0dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="0dp"
+                            android:gravity="center">
+
+
+                            <Button
+                                android:id="@+id/btConnect"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonlogin"
+                                android:text="@string/internal_lan"
+                                android:textSize="20sp"
+                                android:textColor="#FFFFFF"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center" >
+
+                            <Button
+                                android:id="@+id/btedit"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonlogin"
+                                android:layout_marginRight="4dp"
+                                android:text="@string/extenal_network"
+                                android:textSize="20sp"
+                                android:textColor="#FFFFFF"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center">
+
+                            <Button
+                                android:id="@+id/btOk"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="148dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonlogin"
+                                android:text="@string/Ok"
+                                android:textSize="20sp"
+                                android:textColor="#FFFFFF"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/llAddLiscenKey"
+                    android:layout_width="fill_parent"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:background="@drawable/gp80004"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:background="#003A6C"
+        android:id="@+id/llLiscenkey"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PLEASE INPUT LICENSE CODE"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:inputType="textPassword"
+            android:text="_Glinton2017#"
+            android:id="@+id/txtLiscenKey" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Active License"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonlogin"
+            android:id="@+id/btnADDliscen" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

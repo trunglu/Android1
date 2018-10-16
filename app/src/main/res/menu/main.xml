@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_language1"
+        android:icon="@drawable/ic_change_lang_1"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_language">
+        <menu>
+            <item
+                android:id="@+id/action_tiengviet1"
+                android:showAsAction="never"
+                android:title="@string/VietNames"/>
+            <item
+                android:id="@+id/action_tienganh1"
+                android:showAsAction="never"
+                android:title="@string/English"/>
+            <item
+                android:id="@+id/action_tienghoa1"
+                android:showAsAction="never"
+                android:title="@string/Chinna"/>
+        </menu>
+    </item>
+
+
+
+    <!-- More -->
+    <item
+        android:id="@+id/action_exit1"
+        android:icon="@drawable/ic_exit_menu"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_exit"></item>
+
+    <item
+        android:id="@+id/action_Sync"
+        android:icon="@drawable/ic_sync_item"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_Sync"></item>
+    <!-- Refresh -->
+
+
+</menu>
